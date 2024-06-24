@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/*-- *********************************** GLOBAL AUTH *********************** --*/
+
+.signup-container,
+.login-container,
+.forgot-password-container,
+.reset-password-container {
+  background-color: #031926;
+  max-width: 440px;
+  padding: 20px;
+  margin: 170px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.signup-header,
+.login-header,
+.forgot-password-header,
+.reset-password-header {
+  color: #bdfffd;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.signup-input,
+.login-input,
+.forgot-password-input,
+.reset-password-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  background-color: #242424;
+  color: #bdfffd;
+}
+
+.signup-button,
+.login-button,
+.forgot-password-button,
+.reset-password-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  color: #bdfffd;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.signup-button:hover,
+.login-button:hover,
+.forgot-password-button:hover,
+.reset-password-button:hover {
+  background-color: #bdfffd;
+  color: #242424;
+}
+
+.forgot-password-button {
+  margin-top: 2%;
+}
+
+.logout-button,
+.toggle-theme {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font: inherit;
+  padding: 8px 16px;
+  color: #bdfffd;
+}
+
+.logout-button:hover,
+.toggle-theme:hover {
+  color: white;
+}

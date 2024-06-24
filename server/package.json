@@ -1,0 +1,54 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "license": "AGPL-version-3.0",
+  "private": false,
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": "",
+  "keywords": [],
+  "author": {
+    "name": ""
+  },
+  "contributors": [],
+  "scripts": {
+    "database-create": "node ./database/setup.js",
+    "dev": "",
+    "test": "",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "connect-livereload": "^0.6.1",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.2.0",
+    "express-session": "^1.18.0",
+    "livereload": "^0.9.3",
+    "mongodb": "^6.6.2",
+    "resend": "^3.2.0",
+    "socket.io": "^4.7.5",
+    "validator": "^13.12.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.2.0",
+    "eslint": "^8.57.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1",
+    "globals": "^15.2.0"
+  }
+}
